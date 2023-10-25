@@ -1,0 +1,111 @@
+
+
+.line {
+    transition: 0.5s;
+    animation: playing 6s infinite;
+    animation-timing-function: linear;
+    animation-play-state: running;
+  }
+  
+  .line1 {
+    animation-delay: -1.9s;
+  }
+  
+  .line2 {
+    height: 12px;
+    animation-delay: -2.9s;
+  }
+  
+  .line3 {
+    animation-delay: -3.9s;
+  }
+  
+  .line4 {
+    animation-delay: -2.9s;
+  }
+  
+  .line5 {
+    animation-delay: -1.9s;
+  }
+  
+  @keyframes playing {
+  0% {
+    height: 8px;
+  }
+  4% {
+    height: 12px;
+  }
+  8% {
+    height: 16px;
+  }
+  12% {
+    height: 8px;
+  }
+  16% {
+    height: 12px;
+  }
+  20% {
+    height: 16px;
+  }
+  24% {
+    height: 8px;
+  }
+  28% {
+    height: 12px;
+  }
+  32% {
+    height: 16px;
+  }
+  36% {
+    height: 8px;
+  }
+  40% {
+    height: 12px;
+  }
+  44% {
+    height: 16px;
+  }
+  48% {
+    height: 8px;
+  }
+  52% {
+    height: 12px;
+  }
+  56% {
+    height: 16px;
+  }
+  60% {
+    height: 8px;
+  }
+  64% {
+    height: 12px;
+  }
+  68% {
+    height: 16px;
+  }
+  72% {
+    height: 8px;
+  }
+  76% {
+    height: 12px;
+  }
+  80% {
+    height: 16px;
+  }
+  84% {
+    height: 8px;
+  }
+  88% {
+    height: 12px;
+  }
+  92% {
+    height: 16px;
+  }
+  96% {
+    height: 8px;
+  }
+  100% {
+    height: 12px;
+  }
+  }
+  
