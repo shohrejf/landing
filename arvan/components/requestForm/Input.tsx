@@ -31,8 +31,8 @@ export const Input: React.FC<TextInputProps> = ({
           >
             {label}
           </label>
-          <div className="relative">
-            <div className={`tooltip tooltip`}>
+          <div className="relative hidden md:flex">
+            <div className={"tooltip"}>
               <div className="hidden text-xs font-medium text-white group-hover:block">
                 راهنمای کوتاه
               </div>
